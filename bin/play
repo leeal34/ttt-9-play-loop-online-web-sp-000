@@ -6,9 +6,5 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 puts "Welcome to Tic Tac Toe!"
 display_board(board)
-valid_move?(board, index)
-position_taken?(board, index)
-input_to_index(user_input)
-move(board, index, first_player = "X")
 
 # Make sure to execute #play below
